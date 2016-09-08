@@ -8,7 +8,26 @@
 module.exports = {
 
   attributes: {
+  	firstName: {
+  		type: 'string',
+  		defaultsTo: 'John'
+  	},
+  	lastName: {
+  		type: 'string',
+  		defaultsTo: 'Doe'
+  	},
+  	shippingAddress: {
+  		type: 'string',
+  		required: true
+  	},
+  	numberOfPurchases: {
+  		type 'String',
+  		defaultsTo: '0'
+  	}
 
-  }
+
+  
+
+  
 };
 
