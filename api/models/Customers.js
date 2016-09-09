@@ -21,12 +21,12 @@ module.exports = {
   		required: true
   	},
   	numberOfPurchases: {
-  		type 'String',
+  		type: 'String',
   		defaultsTo: '0'
   	}
 
 
-  
+  }
 
   
 };
